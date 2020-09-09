@@ -87,8 +87,8 @@ count_matrix = count.fit_transform(df['bag_of_words'])
 
 
 
-# creating a Series for the movie titles so they are associated to an ordered numerical, nämä kommentit säästetään tutorialista
-# list I will use later to match the indexes, nämä kommentit säästetään tutorialista
+# Tehdään sarja elokuvien titteleistä niin että ne ovat numero järjestyksessä
+# Listaa käytetään myöhemmin indeksien matchaamisessä
 indices = pd.Series(df.index)
 indices[:5]
 
